@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background-image: linear-gradient(black, white);
+}
+body,
+button {
+  font-family: "Poppins";
+}
+
+canvas {
+  width: 1825px !important;
+}
+
+.title {
+  position: absolute;
+  left: 50%;
+  color: yellow;
+}
+
+.title,
+ul button,
+.car-select {
+  text-transform: uppercase;
+}
+
+ul button,
+.car-select {
+  font-size: 30px;
+  background: yellow;
+  color: black;
+  border: none;
+}
+
+ul button {
+  margin-top: 5px;
+}
+
+ul {
+  position: absolute;
+  list-style: none;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
